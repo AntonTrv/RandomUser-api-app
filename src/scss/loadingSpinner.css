@@ -1,0 +1,31 @@
+.spinner-wrapper {
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-color: rgba(0, 0, 0, 0.5);
+}
+
+.loadingSpinner {
+		background: url("../img/preloader.png") no-repeat;
+		background-size: contain;
+		position: relative;
+		top: 50%;
+		margin: auto;
+		height: 30px;
+		width: 30px;
+		animation-name: rotation;
+		animation-duration: 0.4s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+}
+
+@keyframes rotation {
+		0% {
+				transform: rotate(0deg);
+		}
+		100% {
+				transform: rotate(360deg);
+		}
+}

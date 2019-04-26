@@ -1,0 +1,27 @@
+.user {
+  flex-basis: 25%;
+  min-width: 240px;
+  background-color: #161925;
+  color: white;
+  margin: 1%;
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  img {
+    border-radius: 50%;
+    border: 5px solid white;
+    width: 30%;
+  }
+  h2 {
+    text-transform: capitalize;
+  }
+
+  .location {
+    text-transform: capitalize;
+  }
+  span {
+    margin: 2%;
+  }
+}

@@ -1,0 +1,6 @@
+.listOfUsers-wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		margin: auto;
+		background-color: #FFBE0B;
+}

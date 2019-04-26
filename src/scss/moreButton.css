@@ -1,0 +1,27 @@
+.more-clear {
+		width: 20%;
+		display: flex;
+		justify-content: space-around;
+		flex-flow: wrap row;
+		margin: auto;
+		margin-bottom: 1%;
+}
+
+.more-clear button {
+		display: flex;
+		text-align: center;
+		width: 20%;
+		margin: 1% auto;
+		height: 30px;
+		width: 100px;
+		background-color: #161925;
+		color: white;
+		border: none;
+		border-radius: 5px;
+		font-weight: bold;
+		text-transform: uppercase;
+}
+
+.more-clear button span {
+		margin: auto;
+}

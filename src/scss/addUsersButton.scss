@@ -1,0 +1,27 @@
+.addUsers-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: auto;
+  text-align: center;
+
+  h2 {
+    text-transform: uppercase;
+    color:#161925;
+  }
+
+  button {
+    display: flex;
+    text-align: center;
+    width: 20%;
+    margin: 1% auto;
+    height: 30px;
+    width: 50px;
+    background-color: #161925;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
